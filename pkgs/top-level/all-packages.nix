@@ -12347,6 +12347,8 @@ with pkgs;
 
   raider = callPackage ../applications/misc/raider { };
 
+  raindrop = callPackage ../applications/misc/raindrop { };
+
   railway = callPackage ../development/tools/railway {
     inherit (darwin.apple_sdk.frameworks) CoreServices Security;
   };
